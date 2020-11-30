@@ -5,14 +5,21 @@ const app = getApp()
 Page({
   data: {
     motto: '上传文件',
+    mottoS3: '上传文件-s3',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
-  //事件处理函数
+  //文件上传
   uploadViewTap: function() {
     wx.navigateTo({
       url: '../upload-file/upload-file'
+    })
+  },
+  //文件上传-s3
+  uploadViewTapS3: function() {
+    wx.navigateTo({
+      url: '../upload-file-s3/upload-file-s3'
     })
   },
   onLoad: function () {

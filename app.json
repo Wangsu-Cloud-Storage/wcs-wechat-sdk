@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/upload-file/upload-file"
+    "pages/upload-file/upload-file",
+    "pages/upload-file-s3/upload-file-s3"
   ],
   "window":{
     "backgroundTextStyle":"light",

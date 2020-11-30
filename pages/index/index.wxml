@@ -9,5 +9,6 @@
   </view>
   <view class="usermotto">
     <button bindtap='uploadViewTap'>{{motto}}</button>
+    <button bindtap='uploadViewTapS3'>{{mottoS3}}</button>
   </view>
 </view>
